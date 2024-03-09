@@ -4,7 +4,7 @@ title: Thermal Earring
 description: a project with a background image
 img: assets/img/publication_preview/ThermalEarring.jpg
 importance: 1
-category: Research
+category: work
 related_publications: true
 ---
 
