@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The Smart Earring got <a href="https://comotion.uw.edu/funding-and-competitions/programs/comotion-innovation-gap-fund/awardees/">CoMotion Innovation Gap Fund (10K)</a> to support its commercilization!
+The Smart Earring won the <a href="https://comotion.uw.edu/funding-and-competitions/programs/comotion-innovation-gap-fund/awardees/">CoMotion Innovation Gap Fund (10K)</a> to support its commercilization!
