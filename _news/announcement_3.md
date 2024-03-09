@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2023-10-17 16:11:00-0400
-inline: false
+inline: true
 related_posts: false
 ---
 
