@@ -2,7 +2,7 @@
 layout: page
 title: Thermal Earring
 description: a project with a background image
-img: assets/img/12.jpg
+img: assets/img/publication_preview/ThermalEarring.jpg
 importance: 1
 category: Research
 related_publications: true
