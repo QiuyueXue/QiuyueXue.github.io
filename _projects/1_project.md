@@ -4,11 +4,11 @@ title: Thermal Earring
 description: A tiny wireless earring for continuous temperature sensing
 img: assets/img/publication_preview/ThermalEarring.jpg
 importance: 1
-category: work
+category: Research
 ---
 
 <div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/ThermalEarring_WEB_001.jpg" title="Wearing raw ThermalEarring" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
