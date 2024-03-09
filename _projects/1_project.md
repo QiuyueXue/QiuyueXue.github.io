@@ -1,25 +1,22 @@
 ---
 layout: page
 title: Thermal Earring
-description: a project with a background image
+description: A tiny wireless earring for continuous temperature sensing
 img: assets/img/publication_preview/ThermalEarring.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/publication_preview/ThermalEarring.jpg" title="Wearing raw ThermalEarring" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ThermalEarring_fashion.jpg" title="Wearing fashion ThermalEarring" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    We introduce the Thermal Earring, a tiny wireless earring device with a battery life of a month, that offers continuous temperature monitoring from the earlobe. The Thermal Earring can be personalized with fashion designs made of resin — such as the flower shown here — or with a gemstone, without negatively affecting its accuracy.
+    We introduce the Thermal Earring, a tiny wireless earring device with a battery life of a month, that offers continuous temperature monitoring from the earlobe.
 </div>
+
 
 
 Body temperature is an important vital sign which can indicate fever and is known to be correlated with activities such as eating, exercise and stress. However, continuous temperature monitoring poses a significant challenge.
@@ -37,10 +34,26 @@ We present Thermal Earring, a first-of-its-kind smart earring that enables a rel
 </div>
 
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ThermalEarring_fashion.jpg" title="Wearing fashion ThermalEarring" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ThermalEarring_raw_and_fashion.jpg" title="raw and fashion earring" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The smart earring can be personalized with fashion designs made of resin — such as the flower shown here — or with a gemstone, without negatively affecting its accuracy.
+</div>
+
+
+
 
 
 Please feel free to reach out for research collaboration or commercilization.
 
 Paper: <a href="https://dl.acm.org/doi/10.1145/3631440">Link</a> 
+
+
 Media Press: <a href="https://www.washington.edu/news/2024/02/07/smart-earrings-can-monitor-temperature/">UW News</a>, <a href="https://www.king5.com/article/news/health/uw-developed-smart-earrings-body-temperature-healthlink/281-e6aa6d61-38d1-4aff-bb26-349e1f8f246e">King5 News</a>, <a href="https://www.geekwire.com/2024/new-jewel-in-wearable-tech-uw-researchers-create-smart-earring-to-monitor-body-temperature/">GeekWire</a>, etc.
 
