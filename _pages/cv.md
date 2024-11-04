@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: CV_Shirley.pdf
-description: Please download the CV here.
+cv_pdf: Shirley_CV.pdf
+description: Please download the CV here -> (the pdf icon).
 toc:
   sidebar: left
 ---
