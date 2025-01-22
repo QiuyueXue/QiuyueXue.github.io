@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-ECG Necklace and PPG Earring papers accepted to CHI 2025!
+The ECG Necklace paper and PPG Earring paper have been accepted to CHI 2025!
