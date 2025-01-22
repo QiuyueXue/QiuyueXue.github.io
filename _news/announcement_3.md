@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-10-17 16:11:00-0400
+date: 2025-01-21 18:18:00-0400
 inline: true
 related_posts: false
 ---
 
-Went to Cancun for Ubicomp2023. It was great to catch up with old friends and meet new friends!
+ECG Necklace and PPG Earring papers accepted to CHI 2025!
