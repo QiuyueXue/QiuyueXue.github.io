@@ -1,41 +1,41 @@
 ---
 ---
 <div class="row">
-{% assign entry_link = nil %}
-{% if entry.html %}
-  {% if entry.html contains '://' %}
-    {% assign entry_link = entry.html %}
-  {% else %}
-    {% assign entry_link = entry.html | prepend: '/assets/html/' | relative_url %}
+  {% assign entry_link = null %}
+  {% if entry.html %}
+    {% if entry.html contains '://' %}
+      {% assign entry_link = entry.html %}
+    {% else %}
+      {% assign entry_link = entry.html | prepend: '/assets/html/' | relative_url %}
+    {% endif %}
+  {% elsif entry.url %}
+    {% assign entry_link = entry.url %}
+  {% elsif entry.pdf %}
+    {% if entry.pdf contains '://' %}
+      {% assign entry_link = entry.pdf %}
+    {% else %}
+      {% assign entry_link = entry.pdf | prepend: '/assets/pdf/' | relative_url %}
+    {% endif %}
   {% endif %}
-{% elsif entry.url %}
-  {% assign entry_link = entry.url %}
-{% elsif entry.pdf %}
-  {% if entry.pdf contains '://' %}
-    {% assign entry_link = entry.pdf %}
-  {% else %}
-    {% assign entry_link = entry.pdf | prepend: '/assets/pdf/' | relative_url %}
-  {% endif %}
-{% endif %}
 
-{% if site.enable_publication_thumbnails and entry.preview %}
-  {% assign has_thumbnail = true %}
-  <div class="col-sm-2 preview">
-    {% if entry.preview %}
-      {% if entry.preview contains '://' %}
-        {% capture preview_image %}
+  {% if site.enable_publication_thumbnails and entry.preview %}
+    {% assign has_thumbnail = true %}
+    <div class="col-sm-2 preview">
+      {% if entry.preview %}
+        {% if entry.preview contains '://' %}
+          {% capture preview_image %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
         {% endcapture %}
-        {% if entry_link %}
-          <a class="publication-preview-link" href="{{ entry_link }}" target="_blank" rel="noopener">
+          {% if entry_link %}
+            <a class="publication-preview-link" href="{{ entry_link }}" target="_blank" rel="noopener">
+              {{ preview_image | strip_newlines | replace: '  ', ' ' }}
+            </a>
+          {% else %}
             {{ preview_image | strip_newlines | replace: '  ', ' ' }}
-          </a>
+          {% endif %}
         {% else %}
-          {{ preview_image | strip_newlines | replace: '  ', ' ' }}
-        {% endif %}
-      {% else %}
-        {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
-        {% capture preview_figure %}
+          {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+          {% capture preview_figure %}
           {%
             include figure.liquid
             loading="eager"
@@ -46,16 +46,16 @@
             alt=entry.preview
           %}
         {% endcapture %}
-        {% if entry_link %}
-          <a class="publication-preview-link" href="{{ entry_link }}" target="_blank" rel="noopener">
+          {% if entry_link %}
+            <a class="publication-preview-link" href="{{ entry_link }}" target="_blank" rel="noopener">
+              {{ preview_figure }}
+            </a>
+          {% else %}
             {{ preview_figure }}
-          </a>
-        {% else %}
-          {{ preview_figure }}
+          {% endif %}
         {% endif %}
-      {% endif %}
-    {% elsif entry.abbr %}
-      {% if site.data.venues[entry.abbr] %}
+      {% elsif entry.abbr %}
+        {% if site.data.venues[entry.abbr] %}
           {% assign venue_style = null %}
           {% if site.data.venues[entry.abbr].color != blank %}
             {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
@@ -71,8 +71,8 @@
           <abbr class="badge">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
-  </div>
-{% endif %}
+    </div>
+  {% endif %}
 
   <!-- Entry bib key -->
   <div id="{{entry.key}}" class="{% if entry.preview %}col-sm-8{% else %}col-sm-12{% endif %}">
@@ -183,7 +183,7 @@
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     <div class="metadata">
-      {% if entrytype_text != "" %}
+      {% if entrytype_text != '' %}
         <span class="periodical">{{ entrytype | strip }}</span>
       {% endif %}
       {% if entry.number %}
@@ -223,7 +223,14 @@
         {% if entry.video contains '://' %}
           <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">Video</a>
         {% else %}
-          <a href="{{ entry.video | prepend: '/assets/video/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">Video</a>
+          <a
+            href="{{ entry.video | prepend: '/assets/video/' | relative_url }}"
+            class="btn btn-sm z-depth-0"
+            role="button"
+            target="_blank"
+            rel="noopener"
+            >Video</a
+          >
         {% endif %}
       {% endif %}
       {% if entry.blog %}

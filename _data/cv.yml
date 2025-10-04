@@ -15,7 +15,7 @@
       institution: University of Washington, USA
       year: 2025 (expected)
       # description:
-      #   - 
+      #   -
     - title: MS in CS
       institution: Georgia Institute of Technology, USA
       year: 2019
@@ -25,7 +25,6 @@
     - title: BS in EE, BS in CS
       institution: Peking University, China
       year: 2017
-
 # - title: Experience
 #   type: time_table
 #   contents:
