@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: 
 nav: true
 nav_order: 2
@@ -11,5 +11,10 @@ nav_order: 2
 <div class="publications">
 
 {% bibliography %}
+
+<h2>Patents</h2>
+
+{% bibliography --file patents %}
+
 
 </div>

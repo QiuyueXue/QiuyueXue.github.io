@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: University of Washington, <a href='#https://www.cs.washington.edu/'>Paul G. Allen School of Computer Science and Engineering</a>
+subtitle: qiuyue at purdue dot edu <br>Department of Computer Science, Purdue University  
 
 profile:
   align: left
@@ -13,11 +13,25 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
+project_highlights: true # shows selected project videos before news
 social: true  # includes social icons at the bottom of the page
 ---
+I'm an incoming assistant professor at the [Department of Computer Science at Purdue University](https://www.cs.purdue.edu/) (starting January 2026), and I'm currently a visiting faculty researcher at Google XR. I received my Ph.D in Computer Science and Engineering from University of Washington, advised by [Shwetak Patel](https://www.cs.washington.edu/people/faculty/shwetak) and [Vikram Iyer](https://homes.cs.washington.edu/~vsiyer/). I got my B.S in Computer Science and B.S. in Electrical Engineering from Peking University, and M.S. in Computer Science from Georgia Institute of Tehcnology.
 
-I'm a final year CSE PhD student at UW [Ubicomp Lab](https://ubicomplab.cs.washington.edu/), advised by [Prof. Shwetak Patel](https://www.cs.washington.edu/people/faculty/shwetak) and [Prof. Vikram Iyer](https://homes.cs.washington.edu/~vsiyer/). My main research interests are Ubiquitous Computing, Computing for Health, and novel Sensing Techniques. Specifically, I'm interested in low-power compact sensing systems for health and interaction applications. My most recent work explores turning jewelry (earrings, necklaces, etc.) into smart fashionable wearables for continuous health monitorinig.
+I'm broadly interested in Ubiquitous Computing, Human-Computer Interaction, Wearables, Computing for Health, and novel Sensing Techniques. My recent work focus
+on advancing the wearable space by transforming everyday accessories into
+low-power, intelligent systems that enable applications previously difficult or impossible to achieve. These applications span health, well-being, and human-computer interaction. 
 
-Before joining the PhD program at UW, I got my M.S. in Computer Science at Georgia Tech, where I was working with Prof. Gregory Abowd and Prof. Thad Starner. I got B.S. in Microelectronics and B.S. in Computer Science degrees from Peking University in 2017. 
+<mark>I will be recruiting PhD students this application cycle</mark>. If you’re interested in working with me, feel free to contact me with your CV.
 
-Contact me: qxue2 at cs dot washington dot edu
+<br>
+
+<!-- Contact me: qiuyue at purdue dot edu -->
+
+
+
+<!-- Specifically, I'm interested in low-power compact sensing systems for health and interaction applications. My most recent work explores turning jewelry (earrings, necklaces, etc.) into smart fashionable wearables for continuous health monitorinig. -->
+
+<!-- I'm a final year CSE PhD student at UW [Ubicomp Lab](https://ubicomplab.cs.washington.edu/), advised by [Prof. Shwetak Patel](https://www.cs.washington.edu/people/faculty/shwetak) and [Prof. Vikram Iyer](https://homes.cs.washington.edu/~vsiyer/). My main research interests are Ubiquitous Computing, Computing for Health, and novel Sensing Techniques. Specifically, I'm interested in low-power compact sensing systems for health and interaction applications. My most recent work explores turning jewelry (earrings, necklaces, etc.) into smart fashionable wearables for continuous health monitorinig. -->
+
+<!-- Before joining the PhD program at UW, I got my M.S. in Computer Science at Georgia Tech, where I was working with Prof. Gregory Abowd and Prof. Thad Starner. I got B.S. in Microelectronics and B.S. in Computer Science degrees from Peking University in 2017.  -->

@@ -1,0 +1,10 @@
+- title: PPG Earring
+  summary: Smart earring that continuously tracks heart rate optically with low-power wireless design.
+  image: assets/img/publication_preview/PPG_Earring.jpg
+  video_url: https://youtu.be/ua40y1ghddw?si=cGdNN_NZfI6xkIpn
+  paper_url: https://dl.acm.org/doi/10.1145/3706598.3713856
+- title: ECG Necklace
+  summary: Necklace-based wearable delivering continuous multi-lead ECG while remaining lightweight and always-on.
+  image: assets/img/publication_preview/ECG_Necklace.png
+  video_url: https://youtu.be/3rrEP1A26pk?si=TR8zaLKO8-Vssgll
+  paper_url: https://dl.acm.org/doi/10.1145/3706598.3713742
