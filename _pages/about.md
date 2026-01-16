@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: qiuyue at purdue dot edu <br>Office: DSAI 3043 <br>Department of Computer Science, Purdue University
+subtitle: qiuyue at purdue dot edu. Office: DSAI 3043 <br>Department of Computer Science, Purdue University
 
 profile:
   align: left
