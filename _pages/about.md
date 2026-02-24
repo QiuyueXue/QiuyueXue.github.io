@@ -24,10 +24,3 @@ I’m broadly interested in Ubiquitous Computing, Human–Computer Interaction, 
 For undergrads and MS students interested in working with me, please fill out this [form](https://forms.gle/1Yz2ZyhjYjy3upkM6), or email me with your CV.
 <br>
 
-<!-- Contact me: qiuyue at purdue dot edu -->
-
-<!-- Specifically, I'm interested in low-power compact sensing systems for health and interaction applications. My most recent work explores turning jewelry (earrings, necklaces, etc.) into smart fashionable wearables for continuous health monitorinig. -->
-
-<!-- I'm a final year CSE PhD student at UW [Ubicomp Lab](https://ubicomplab.cs.washington.edu/), advised by [Prof. Shwetak Patel](https://www.cs.washington.edu/people/faculty/shwetak) and [Prof. Vikram Iyer](https://homes.cs.washington.edu/~vsiyer/). My main research interests are Ubiquitous Computing, Computing for Health, and novel Sensing Techniques. Specifically, I'm interested in low-power compact sensing systems for health and interaction applications. My most recent work explores turning jewelry (earrings, necklaces, etc.) into smart fashionable wearables for continuous health monitorinig. -->
-
-<!-- Before joining the PhD program at UW, I got my M.S. in Computer Science at Georgia Tech, where I was working with Prof. Gregory Abowd and Prof. Thad Starner. I got B.S. in Microelectronics and B.S. in Computer Science degrees from Peking University in 2017.  -->
