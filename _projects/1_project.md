@@ -43,6 +43,6 @@ We present Thermal Earring, a first-of-its-kind smart earring that enables a rel
 
 Please feel free to reach out for research collaboration or commercilization.
 
-Paper: <a href="https://dl.acm.org/doi/10.1145/3631440">Link</a>
+Paper: <a href="https://doi.org/10.1145/3631440">Link</a>
 
-Media Press: <a href="https://www.washington.edu/news/2024/02/07/smart-earrings-can-monitor-temperature/">UW News</a>, <a href="https://www.king5.com/article/news/health/uw-developed-smart-earrings-body-temperature-healthlink/281-e6aa6d61-38d1-4aff-bb26-349e1f8f246e">King5 News</a>, <a href="https://www.geekwire.com/2024/new-jewel-in-wearable-tech-uw-researchers-create-smart-earring-to-monitor-body-temperature/">GeekWire</a>, etc.
+Media Press: <a href="https://www.washington.edu/news/2024/02/07/smart-earrings-can-monitor-temperature/">UW News</a>, <a href="https://www.geekwire.com/2024/new-jewel-in-wearable-tech-uw-researchers-create-smart-earring-to-monitor-body-temperature/">GeekWire</a>, etc.
