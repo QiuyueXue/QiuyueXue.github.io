@@ -10,14 +10,7 @@ description: Spring 2026.
 ## CS 59200 – Mobile and Ubiquitous Computing
 
 Check the latest syllabus:
-<a
-class="btn btn-sm btn-outline-primary"
-href="/assets/pdf/Seminar%2059200\_%20Mobile%20and%20Ubiquitous%20Computing.pdf"
-target="\_blank"
-rel="noopener"
-
-> Syllabus (PDF)
-> </a>
+<a class="btn btn-sm btn-outline-primary" href="/assets/pdf/Seminar%2059200_%20Mobile%20and%20Ubiquitous%20Computing.pdf" target="_blank" rel="noopener">Syllabus (PDF)</a>
 
 <div class="cv-embed">
   <iframe
