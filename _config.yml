@@ -174,7 +174,8 @@ collections:
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 4 # leave blank to include all the news in the `_news` folder
+  since_year: 2025 # only show news from this year onward
+  limit: 6 # leave blank to include all matching news in the `_news` folder
 
 latest_posts:
   enabled: false
