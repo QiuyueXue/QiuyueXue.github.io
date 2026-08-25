@@ -17,8 +17,101 @@
     <title>CS 57100: Artificial Intelligence (Fall 2026)</title>
     <meta name="description" content="Syllabus for Purdue CS 57100: Artificial Intelligence, Fall 2026." />
     <link rel="modulepreload" href="assets/index-H_8MB3nj.js" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" />
+    <style>
+      /* Site header, matching the navigation on the rest of xueqiuyue.com */
+      .site-nav {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: #fff;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+      .site-nav-inner {
+        width: min(100% - 40px, 1200px);
+        margin: 0 auto;
+        padding: 11px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px 20px;
+      }
+      .site-nav-brand {
+        color: #000;
+        font-size: 1.15rem;
+        font-weight: 300;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+      .site-nav-brand strong {
+        font-weight: 700;
+      }
+      .site-nav-brand:hover {
+        color: #000;
+      }
+      .site-nav-links {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 6px 20px;
+      }
+      .site-nav-links a {
+        color: #000;
+        font-size: 0.95rem;
+        text-decoration: none;
+      }
+      .site-nav-links a:hover {
+        color: #b509ac;
+      }
+      .site-nav-links a.active {
+        color: #b509ac;
+        font-weight: 700;
+      }
+      /* Keep the sticky sidebar and anchor jumps clear of the sticky header */
+      .sidebar {
+        top: 72px;
+        max-height: calc(100vh - 92px);
+      }
+      section,
+      h3 {
+        scroll-margin-top: 72px;
+      }
+      @media (width <= 760px) {
+        .site-nav-inner {
+          width: min(100% - 24px, 1200px);
+          gap: 6px 14px;
+        }
+        .site-nav-links {
+          gap: 4px 14px;
+        }
+        .site-nav-links a {
+          font-size: 0.88rem;
+        }
+      }
+      @media print {
+        .site-nav {
+          display: none;
+        }
+      }
+    </style>
   </head>
   <body>
+    <header class="site-nav">
+      <div class="site-nav-inner">
+        <a class="site-nav-brand" href="/"><strong>Qiuyue</strong> (Shirley) Xue</a>
+        <nav class="site-nav-links" aria-label="Site">
+          <a href="/">About</a>
+          <a href="/research/">Research</a>
+          <a href="/publications/">Publications</a>
+          <a class="active" aria-current="page" href="/teaching/">Teaching</a>
+          <a href="/cv/">CV</a>
+        </nav>
+      </div>
+    </header>
     <main class="page">
       <header class="course-header">
         <h1>CS 57100: Artificial Intelligence (Fall 2026)</h1>
