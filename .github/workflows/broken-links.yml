@@ -49,4 +49,10 @@ jobs:
         with:
           fail: true
           # removed md files that include liquid tags
-          args: --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --verbose --no-progress './**/*.md' './**/*.html'
+          # ACM rejects automated requests with a 403, and this Ubuntu page intermittently times out in CI.
+          args: >-
+            --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md
+            --exclude-path _posts/2018-12-22-distill.md
+            --exclude '^https://dl\\.acm\\.org/doi/10\\.1145/3631440$'
+            --exclude '^https://ubuntu\\.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support$'
+            --verbose --no-progress './**/*.md' './**/*.html'
